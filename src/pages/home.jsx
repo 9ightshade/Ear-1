@@ -1,6 +1,7 @@
 import HeroImage from "../components/hero-image";
 import HeroText from "../components/hero-text";
 import Logo from "../components/logo";
+import Main from "../components/main";
 import Nav from "../components/nav";
 
 const Home = () => {
@@ -13,7 +14,8 @@ const Home = () => {
 
       <main>
               <HeroText />
-              <HeroImage/>
+              <HeroImage />
+              <Main/>
       </main>
     </div>
   );
