@@ -1,11 +1,11 @@
+import Home from "./pages/home"
 
 function App() {
 
   return (
-    <div>
-      <p>
-        Lorem ipsum dolor sit amet.
-      </p>
+    <div className="p-[1em]" >
+      <Home/>
+
   </div>
   )
 }
