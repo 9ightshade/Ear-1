@@ -4,7 +4,7 @@ export const HeroText = ()=>{
 
 return(
 
-<div className="text-white" >
+<div className="text-white w-[70%] mx-auto" >
 
 <h1 className="text-center text-[2em] font-bold" >
 Build direct, meaningful connections.
