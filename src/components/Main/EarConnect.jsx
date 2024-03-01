@@ -11,7 +11,7 @@ export const Ear1Connect = ()=>{
 
 <article className=" basis-[50%] border border-[blue] py-[3em] px-[3em]" >
 
-    <button className=" py-[.2em] px-[2em] rounded-[15px] bg-[orange]" >
+    <button className=" py-[.2em] px-[2em] rounded-[15px] bg-[#FFBB62]" >
         Fans
     </button>
 
@@ -25,8 +25,11 @@ From Tech to Music to business. Ear1 has a wide range of industry experts in div
 </article>
 
 
-<div className="px-[5em] py-[4em] basis-[50%] " >
-    <img src={expertsImage} alt="experts_image" className="" />
+<div className="px-[5em] py-[4em] basis-[50%]  " >
+    <div className="bg-[#029F58] w-[80%] mx-auto " >
+    <img src={expertsImage} alt="experts_image" className="w-full" />
+    </div>
+    
 </div>
 
 </section>

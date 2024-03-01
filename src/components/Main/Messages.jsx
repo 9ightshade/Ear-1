@@ -28,7 +28,7 @@ From Tech to Music to business. Ear1 has a wide range of industry experts in div
 </article>
 
 
-<div className="px-[5em] py-[4em] basis-[50%] " >
+<div className="px-[5em] py-[4em] basis-[50%] bg-[#F0F0E6] " id="noise" >
     <img src={messages} alt="#" className="" />
 </div>
 
