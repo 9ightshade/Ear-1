@@ -1,5 +1,6 @@
 import { Agenda } from "./Agenda"
 import { ChatEarn } from "./ChatEarn"
+import { Dms } from "./Dms"
 import { Ear1Connect } from "./EarConnect"
 import { Messages } from "./Messages"
 
@@ -12,6 +13,7 @@ return(
 <Ear1Connect/>
 <Messages/>
 <ChatEarn/>
+<Dms/>
 </>
 
 )

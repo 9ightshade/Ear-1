@@ -7,7 +7,7 @@ export const Agenda = ()=>{
     return(
 <>
 
-<section className="bg-white md:flex justify-between " >
+<section className="bg-whitegit add . md:flex justify-between " >
 <article className=" basis-[50%] py-[4em] px-[5em]">
 <h2 className="text-[green] text-[3rem] font-bold " >
 What can Ear1 help you do?
