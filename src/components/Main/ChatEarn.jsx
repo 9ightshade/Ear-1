@@ -1,17 +1,22 @@
-import settlements from "../../assets/phone-screen.png"
-
+import settlements from "../../assets/Black-Matte2.svg";
+import shape from "../../assets/shape.svg"
 export const ChatEarn =()=>{
 
 return(
 
 <>
-<section className="bg-white md:flex justify-between border border-[black] ">
+<div className="flex justify-end py-[1.5em] pr-[4em]" >
+    <img src={shape} alt="" />
+</div>
+<section className="bg-white md:flex justify-between ">
 
-<div className="px-[5em] py-[4em] basis-[50%] " >
+
+
+<div className=" basis-[50%] " >
     <img src={settlements} alt="#" className="w-full" />
 </div>
 
-<article className=" basis-[50%] border border-[blue] bg-white text-black md:pt-[7em] py-[3em]  px-[3em]" >
+<article className=" basis-[50%] bg-white text-black py-[3em]  px-[3em]" >
    <button className=" py-[.2em] px-[2em] text-black font-bold rounded-[15px] bg-[orange]" >
     Influencer
     </button>
