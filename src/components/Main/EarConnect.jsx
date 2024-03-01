@@ -7,9 +7,9 @@ export const Ear1Connect = ()=>{
 
 <>
 
-<section className="bg-white md:flex justify-between border border-[black] ">
+<section className="bg-white md:flex justify-between ">
 
-<article className=" basis-[50%] border border-[blue] py-[3em] px-[3em]" >
+<article className=" basis-[50%] py-[3em] px-[3em]" >
 
     <button className=" py-[.2em] px-[2em] rounded-[15px] bg-[#FFBB62]" >
         Fans

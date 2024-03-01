@@ -1,12 +1,16 @@
-import messages from "../../assets/influencer-2.png"
+import topbar from "../../assets/Topbar.svg";
+import chat1 from "../../assets/Chat1.svg";
+import chat2 from "../../assets/Chat2.svg";
+import chat3 from "../../assets/Chat3.svg";
+import messagefield from "../../assets/Messagefield.svg";
 import chat from "../../assets/Icon-chat.svg"
 export const Messages = ()=>{
 return(
 <>
 
-<section className="bg-white md:flex justify-between border border-[black] ">
+<section className="bg-white md:flex justify-between  ">
 
-<article className=" basis-[50%] border border-[blue] bg-[green] text-white py-[2em] px-[3em]" >
+<article className=" basis-[50%] bg-[#039352] text-white py-[2em] px-[3em]" >
 
    <div className="flex justify-between items-center py-[1em]" >
    <button className=" py-[.2em] px-[2em] text-black font-bold rounded-[15px] bg-[orange]" >
@@ -28,8 +32,31 @@ From Tech to Music to business. Ear1 has a wide range of industry experts in div
 </article>
 
 
-<div className="px-[5em] py-[4em] basis-[50%] bg-[#F0F0E6] " id="noise" >
-    <img src={messages} alt="#" className="" />
+<div className=" basis-[50%] bg-[#F0F0E6] py-[.5em] " id="noise " >
+<div className="w-[80%] mx-auto " >
+<img src={topbar} alt=""/>
+</div>
+
+    
+    
+<div className="w-[80%] mx-auto pl-[4em] py-[2em] " >
+<img src={chat1} alt=""/>
+</div>
+
+<div className="w-[80%] mx-auto pr-[6em] " >
+<img src={chat2} alt=""/>
+</div>
+
+
+<div className="w-[80%] mx-auto pr-[4em] py-[2em]" >
+<img src={chat3} alt=""/>
+</div>
+
+<div className="w-[80%] mx-auto " >
+<img src={messagefield} alt=""/>
+</div>
+
+
 </div>
 
 </section>
