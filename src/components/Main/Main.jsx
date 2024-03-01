@@ -1,4 +1,5 @@
 import { Agenda } from "./Agenda"
+import { Assurance } from "./Assurance"
 import { ChatEarn } from "./ChatEarn"
 import { Dms } from "./Dms"
 import { Ear1Connect } from "./EarConnect"
@@ -14,6 +15,7 @@ return(
 <Messages/>
 <ChatEarn/>
 <Dms/>
+<Assurance/>
 </>
 
 )

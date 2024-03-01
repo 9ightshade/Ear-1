@@ -5,7 +5,7 @@ import { Nav } from "../components/Nav/Nav";
 
 const Home = () => {
   return (
-    <div className="bg-[green] h-[100vh]">
+    <div className="bg-[#029F58] h-[100vh]">
  <Nav/>
  <Hero/>
  <Main/>

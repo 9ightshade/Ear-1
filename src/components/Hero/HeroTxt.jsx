@@ -6,7 +6,7 @@ return(
 
 <div className="text-white w-[70%] mx-auto" >
 
-<h1 className="text-center text-[2em] font-bold" >
+<h1 className="text-center text-[2rem] font-[700]" >
 Build direct, meaningful connections.
 </h1>
 <p className="text-center w-[80%] mx-auto " >
