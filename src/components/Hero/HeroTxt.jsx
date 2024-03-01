@@ -13,7 +13,9 @@ Build direct, meaningful connections.
 Ear1 helps you connect directly with your favourite influencers for a small fee. What’s more? We assure you of getting a reply.
 </p>
 
+<div  className="md:flex w-[50%] mx-auto gap-[1.5em] justify-center">
 <Cta/>
+</div>
 </div>
 
 

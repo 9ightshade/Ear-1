@@ -6,7 +6,7 @@ export const Cta = ()=>{
 
 return(
 
-<div className="md:flex w-[50%] mx-auto gap-[1.5em] justify-center" >
+<>
 <div className="max-w-[200px] mt-[1.5em]">
     <img src={playstore} alt="playstore" />
 </div>
@@ -15,7 +15,7 @@ return(
     <img src={appstore} alt="appstore" />
 </div>
 
-</div>
+</>
 
 
 )

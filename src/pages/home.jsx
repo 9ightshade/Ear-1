@@ -1,3 +1,4 @@
+import { Footer } from "../components/Footer/Footer";
 import { Hero } from "../components/Hero/Hero";
 import { Main } from "../components/Main/Main";
 import { Nav } from "../components/Nav/Nav";
@@ -9,6 +10,7 @@ const Home = () => {
  <Nav/>
  <Hero/>
  <Main/>
+ <Footer/>
     </div>
   );
 };
