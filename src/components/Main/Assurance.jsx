@@ -42,10 +42,10 @@ The ear1 assurance
 
 
 <div className="bg-[#029F58] w-[80%] mx-auto flex items-center rounded-[30px] " >
-<div className="pt-[3em] pl-[2em] " >
+<div className="pt-[3em] hidden md:block pl-[2em] " >
     <img src={handphone} alt="" />
 </div>
-<div className=" px-[2em] " >
+<div className=" px-[2em] py-[2em]" >
 
 <h2 className="text-white font-bold text-[2rem]" >
 Get ahead of your game
